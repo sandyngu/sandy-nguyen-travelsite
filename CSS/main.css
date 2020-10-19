@@ -1,0 +1,143 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+p {
+    font-size: 0.75rem;
+}
+.main-nav {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    width: 95%;
+}
+.main-nav__heading {
+    color: #2d3982;
+    display: inline-flex;
+    width: 100%;
+    font-size: 0.8rem;
+}
+.main-nav__menu {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+.main-nav__menu-link {
+    text-decoration: none;
+}
+.main-nav ul li a {
+    display: inline-flex;
+    color: black;
+    padding-bottom: 7px;
+    margin: 10px;
+    font-size: 0.75rem;
+}
+.main-nav__menu-link--active {
+    border-bottom: #e37889 3px solid;
+}
+.hero {
+    background-color: #f8f8f8;
+    display: flex;
+    padding: 100px 0 80px 0;
+    width: 100%;
+    justify-content: center;
+}
+.hero__content {
+    width: 45%;
+    min-width: 350px;
+    padding-top: 50px;
+}
+.hero__heading {
+    color: #101d42;
+    font-family: 'Comic Sans MS';
+}
+.hero__description {
+    padding-bottom: 10px;
+}
+.hero__image-big {
+    height: 50vh;
+}
+#button-getstarted {
+    background-color: #5969d0;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 7px 35px;
+}
+#button-getstarted:hover {
+    border-radius: 30px;
+    padding: 7px 35px;
+    outline: none;
+    cursor: pointer;
+}
+#button-getstarted:active:focus {
+    border-radius: 30px;
+    padding: 7px 35px;
+    outline: none;
+}
+.hero__image-big {
+    padding-top: 40px;
+    height: 35vh;
+}
+.main-section__heading {
+    color: #101d42;
+    padding: 10px 70px;
+}
+.main-section__card-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.card {
+    width: 190px;
+    height: 280px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.20);
+    margin: 0 15px;
+    display: flex;
+}
+.card--hover:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+    border: 1px dashed black;
+}
+p.card {
+    color: white;
+    background-color: transparent;
+    width: 190px;
+    height: 280px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.main-section__card-recommendation1 {
+    background-image: url('/Assets/hawaii.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-section__card-recommendation2 {
+    background-image: url('/Assets/iceland.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-section__card-recommendation3 {
+    background-image: url('/Assets/greece.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #5969d0;
+    opacity: 0.6;
+}
+
+
+    

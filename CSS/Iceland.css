@@ -1,0 +1,89 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+.main-nav {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    width: 95%;
+}
+.main-nav__heading {
+    color: #2d3982;
+    display: inline-flex;
+    width: 100%;
+    font-size: 0.8rem;
+}
+.main-nav__menu {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+.main-nav__menu-link {
+    text-decoration: none;
+}
+.main-nav ul li a {
+    display: inline-flex;
+    color: black;
+    padding-bottom: 7px;
+    margin: 10px;
+    font-size: 0.75rem;
+}
+.main-nav__menu-link--active {
+    border-bottom: #e37889 3px solid;
+}
+.main-section {
+    background-image: url("../assets/iceland.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+.main-section__card-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.main-section__heading {
+    color: white;
+    font-size: 4rem;
+    padding: 100px 100px 50px 100px;
+    margin: 0;
+}
+.card {
+    background-color: white;
+    width: 190px;
+    height: 280px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.20);
+    margin: 0 15px;
+}
+.main-section__itinerary-card-heading {
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.main-section__itinerary-list {
+    margin: 0 auto;
+    padding: 0;
+}
+li.main-section__itinerary-list-item {
+    background-color: #f0f0f0;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin: 12px auto;
+    font-size: 0.75rem;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #5969d0;
+    opacity: 0.6;
+}
